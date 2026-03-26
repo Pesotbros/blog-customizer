@@ -98,8 +98,7 @@ export const ArticleParamsForm = ({
 				ref={sidebarRef}
 				className={clsx(styles.container, {
 					[styles.container_open]: isMenuOpen,
-				})}
-			>
+				})}>
 				<form className={styles.form} onSubmit={handleSubmit}>
 					<Select
 						selected={fontFamily}
